@@ -1,0 +1,5 @@
+ex1=input('digite algo para teste  ')
+print('o tipo primitivo desse dado é', type(ex1))
+print('é puramente caixa baixa?', ex1.islower())
+print('é um número?', ex1.isnumeric())
+print('é alfanumérico?', ex1.isalnum())

@@ -1,0 +1,7 @@
+p1 = input('Qual sua profissão?')
+print('Sua profissão é ', p1)
+print('esse dado resultou em', p1.isnumeric(), 'para numérico')
+print('esse dado resultou em', p1.isspace(), 'para uso de espaços')
+print('esse dado resultou em', p1.isidentifier(), 'para identificador')
+print('esse dado resultou em', p1.isalpha(), 'para alfabético')
+print('esse dado resultou em', p1.islower(), 'para caixa baixa')
